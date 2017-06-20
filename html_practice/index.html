@@ -67,6 +67,35 @@
     </ol>
   </section>
 
+  <section id="reviews">
+    <h2>Reviews!<h2>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+      <br>
+      <label for="rating">Rating</label>
+      1<input id="rating" type="radio" name="rating" value="1" checked>
+      2<input id="rating" type="radio" name="rating" value="2">
+      3<input id="rating" type="radio" name="rating" value="3">
+      4<input id="rating" type="radio" name="rating" value="4">
+      5<input id="rating" type="radio" name="rating" value="5">
+
+      <br>
+      <label for="expertise">Cooking Expertise</label>
+      <select id="expertise" name="expertise">
+        <option value="Select Cooking Expertise" disabled selected>Select Cooking Expertise</option>
+        <option value="Sometimes Cook">Sometimes Cook</option>
+        <option value="Cook Everday">Cook Everday</option>
+        <option value="Cooking is a Hobby">Select Cooking Expertise</option>
+        <option value="Professional Chef">Professional Chef</option>
+      </select>
+      <br>
+      <label for="review">Text Review</label>
+      <textarea id="review" name="text" rows="8" cols="80"></textarea>
+
+    </form>
+  </section>
+
   <footer>
     <p>
       Orignal Reciple found on <a href="http://www.goodtoknow.co.uk/recipes/148909/Chocolate-brownies">GoodToKnow</a>
